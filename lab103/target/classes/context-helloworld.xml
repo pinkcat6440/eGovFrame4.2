@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">	
+        
+	<!-- 어노테이션 설정하는 태그 : 어노테이션이 xml에 동작하는 걸 허용함   -->
+	<context:annotation-config/> 
+	 
+	<!-- 스프링 컨테이너가 HelloWorldServiceImpl의 인스턴스로 helloworld빈을 만드는데, 이때 name 속성에 value값이 주입됨 --> 
+	<bean name="helloworld" class="egovframework.guide.helloworld.HelloWorldServiceImpl">
+		<property name="name">
+			<value>egov framework</value>
+		</property>
+	</bean>
+	
+</beans>
