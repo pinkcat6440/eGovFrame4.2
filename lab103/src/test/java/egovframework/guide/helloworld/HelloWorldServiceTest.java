@@ -20,8 +20,8 @@ public class HelloWorldServiceTest{
 	
 	@Test
 	public void sayHello() {
-		assertEquals("pink Hello eGovFrame!!!", helloworld.sayHello());
-	}
+		assertEquals("Hello eGovFrame!!!", helloworld.sayHello());
+ 	}
 }
 
 

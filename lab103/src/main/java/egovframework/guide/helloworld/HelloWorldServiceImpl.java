@@ -17,7 +17,7 @@ public class HelloWorldServiceImpl implements HelloWorldService{
 	
 	// 인터페이스의 메소드를 구현함
 	@Override  
-	public String sayHello() {
-		return "pink Hello " + name + "!!!" ;
+	public String sayHello() { 
+		return "Hello " + name + "!!!" ;
 	}
 }

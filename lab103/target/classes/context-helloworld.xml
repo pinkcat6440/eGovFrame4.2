@@ -11,7 +11,7 @@
 	<bean name="helloworld" class="egovframework.guide.helloworld.HelloWorldServiceImpl">
 		<property name="name">
 			<value>egov framework</value>
-		</property>
+		</property> 
 	</bean>
 	
 </beans>
